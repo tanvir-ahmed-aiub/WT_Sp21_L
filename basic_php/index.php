@@ -24,8 +24,9 @@
 	<head></head>
 	<body>
 		<?php echo "<h1>Welcome to Server Client Model in PHP</h1>"; ?>
+		Hello from 
 		<?php
-			echo "Hello from PHP";
+			echo "PHP";
 		?>
 	</body>
 </html>
