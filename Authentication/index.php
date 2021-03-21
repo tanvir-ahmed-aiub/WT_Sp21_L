@@ -1,14 +1,11 @@
 <?php
-	$uname="";
+  	$uname="";
 	$err_uname="";
 	$pass="";
 	$err_pass="";
 	$hasError=false;
 	$err_message="";
-	$users=array("Mina"=>"1234","Raju"=>"2564","Tanvir"=>"12345678");
-	
-	
-	
+
 	if($_SERVER["REQUEST_METHOD"] == "POST"){
 		if(empty($_POST["uname"])){
 			$err_uname="Username Required";

@@ -1,3 +1,6 @@
+<?php
+    setcookie("dum","",time()+360);
+?>
 <html>
 	<head></head>
 	<body>
